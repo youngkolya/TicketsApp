@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_aviatickets">
+
+    <fragment
+        android:id="@+id/navigation_aviatickets"
+        android:name="com.example.tickets.ui.Aviatickets.AviaticketsFragment"
+        android:label="@string/aviatickets"
+        tools:layout="@layout/fragment_aviatickets" />
+
+    <fragment
+        android:id="@+id/navigation_hostels"
+        android:name="com.example.tickets.ui.Hostels.HostelsFragment"
+        android:label="@string/hostels"
+        tools:layout="@layout/fragment_hostels" />
+
+    <fragment
+        android:id="@+id/navigation_koroche"
+        android:name="com.example.tickets.ui.Koroche.KorocheFragment"
+        android:label="@string/koroche"
+        tools:layout="@layout/fragment_koroche" />
+    <fragment
+        android:id="@+id/navigation_subscribe"
+        android:name="com.example.tickets.ui.Subscribe.SubscribeFragment"
+        android:label="fragment_subscribe"
+        tools:layout="@layout/fragment_subscribe" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.tickets.ui.Profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/search_select"
+        android:name="com.example.tickets.ui.SearchSelect.SearchSelect"
+        tools:layout="@layout/search_select_country"/>
+    <fragment
+        android:id="@+id/AllTicketsFragment"
+        android:name="com.example.tickets.ui.AllTickets.AllTicketsFragment"
+        tools:layout="@layout/fragment_all_tickets" />
+
+
+</navigation>

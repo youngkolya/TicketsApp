@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tickets</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="aviatickets">Авиабилеты</string>
+    <string name="hostels">Отели</string>
+    <string name="koroche">Короче</string>
+    <string name="subscribe">Подписки</string>
+    <string name="profile">Профиль</string>
+    <string name="search_aviatickets">Поиск дешевых\nавиабилетов</string>
+    <string name="music_otlet">Музыкально отлететь</string>
+    <string name="fast1_string">Сложный\nмаршрут</string>
+    <string name="fast2_string">Куда угодно</string>
+    <string name="fast3_string">Выходные</string>
+    <string name="fast4_string">Горячие\nбилеты</string>
+    <string name="sochi">Сочи</string>
+    <string name="stambul">Стамбул</string>
+    <string name="phuket">Пхукет</string>
+    <string name="most_popular_tickets">Популярное направление</string>
+    <string name="selected_date_format">%02d/%02d/%d</string>
+
+
+</resources>

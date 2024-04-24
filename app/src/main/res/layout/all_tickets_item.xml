@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="@color/grey1"
+        app:cardCornerRadius="8dp"
+        android:clipChildren="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:text="Самый удобный"
+                android:textColor="@color/white"
+                android:visibility="visible"
+                app:chipBackgroundColor="@color/blue"
+                app:chipCornerRadius="16dp"
+                app:chipEndPadding="8dp"
+                app:chipStartPadding="8dp" />
+
+            <TextView
+                android:id="@+id/tv_price_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="24dp"
+                android:text="6 990"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/im_ticket_sall"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/rectangle1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_time_start"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:fontFamily="@font/sf_regular"
+                            android:text="03:15"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="—"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_time_finish"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/sf_regular"
+                            android:text="07:10"
+                            android:textColor="@color/white" />
+
+
+                        <TextView
+                            android:id="@+id/time_travel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/sf_semibold"
+                            android:text="4ч в пути"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_transfer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/sf_semibold"
+                            android:text="/Без пересадок"
+                            android:textColor="@color/white"
+                            tools:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_start_Airport"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/sf_semibold"
+                            android:text="DME"
+                            android:textAllCaps="true"
+                            android:textColor="@color/grey6" />
+
+                        <TextView
+                            android:id="@+id/tv_finish_Airport"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/sf_semibold"
+                            android:text="AER"
+                            android:textAllCaps="true"
+                            android:textColor="@color/grey6" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

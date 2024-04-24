@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_aviatickets"
+        android:icon="@drawable/ic_aviatickets"
+        android:label="@string/aviatickets"
+        android:title="@string/aviatickets" />
+
+    <item
+        android:id="@+id/navigation_hostels"
+        android:icon="@drawable/ic_hostels"
+        android:label="@string/hostels"
+        android:title="@string/hostels" />
+
+    <item
+        android:id="@+id/navigation_koroche"
+        android:icon="@drawable/ic_koroche"
+        android:label="@string/koroche"
+        android:title="@string/koroche" />
+    <item
+        android:id="@+id/navigation_subscribe"
+        android:icon="@drawable/ic_subscribe"
+        android:label="@string/subscribe"
+        android:title="@string/subscribe" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/ic_profile"
+        android:label="@string/profile"
+        android:title="@string/profile"
+        android:visible="true" />
+
+</menu>
